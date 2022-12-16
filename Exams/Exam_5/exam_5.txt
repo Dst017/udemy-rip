@@ -1,0 +1,602 @@
+Question 1
+An application that is deployed across multiple Availability Zones could be described as:
+
+A. Being secure
+B. Having elasticity
+C. Having global reach
+D. Being highly available
+
+
+Question 2
+Which AWS components aid in the construction of fault-tolerant applications? (Select TWO.)
+
+A. ARNs
+B. AMIs
+C. Elastic IP addresses
+D. Block device mappings
+E. Tags
+
+
+Question 3
+What are the benefits of using IAM roles for applications that run on EC2 instances? (Select TWO.)
+
+A. Can apply multiple roles to a single instance
+B. Easier to configure than using storing access keys within the EC2 instance
+C. It is easier to manage IAM roles
+D. More secure than storing access keys within applications
+E. Role credentials are permanent
+
+
+Question 4
+Which AWS service can assist with providing recommended actions on cost optimization?
+
+A. AWS Trusted Advisor
+B. Amazon CloudWatch Events
+C. AWS Inspector
+D. AWS Artifact
+
+
+Question 5
+Which support plan is the lowest cost option that allows unlimited cases to be open?
+
+A. Enterprise
+B. Developer
+C. Business
+D. Basic
+
+
+Question 6
+Which service is used for caching data?
+
+A. Amazon DynamoDB DAX
+B. Amazon Simple Queue Service (SQS)
+C. AWS Key Management Service (KMS)
+D. Amazon Elastic File System (EFS)
+
+
+Question 7
+Which AWS service enables developers and data scientists to build, train, and deploy machine learning models?
+
+A. Amazon SageMaker
+B. Amazon Comprehend
+C. Amazon Rekognition
+D. Amazon MQ
+
+
+Question 8
+Which AWS service is part of the suite of "serverless" services and runs code as functions?
+
+A. Amazon ECS
+B. AWS Lambda
+C. AWS CodeCommit
+D. Amazon EKS
+
+
+Question 9
+Which type of storage stores objects comprised of key, value pairs?
+
+A. Amazon EBS
+B. Amazon DynamoDB
+C. Amazon EFS
+D. Amazon S3
+
+
+Question 10
+What information must be entered into the AWS TCO Calculator?
+
+A. The number of end users in your company
+B. The number of storage systems in your company
+C. The number of servers in your company
+D. The number of applications in your company
+
+
+Question 11
+Under the AWS Shared Responsibility Model, which of the following is the customer NOT responsible for?
+
+A. Applying bucket policies to share Amazon S3 data
+B. Adding firewall rules to security groups and network ACLs
+C. Installing firmware updates on host servers
+D. Applying encryption to data stored on an EBS volume
+
+
+Question 12
+When designing a VPC, what is the purpose of an Internet Gateway?
+
+A. Enables Internet communications for instances in public subnets
+B. Provides Internet access for EC2 instances in private subnets
+C. It's used for making VPN connections to a VPC
+D. It's a bastion host for inbound management connections
+
+
+Question 13
+What offerings are included in the Amazon LightSail product set? (Select TWO.)
+
+A. Serverless functions
+B. File storage
+C. Virtual Private Server
+D. NoSQL database
+E. Managed MySQL database
+
+
+Question 14
+Which tools can you use to manage identities in IAM? (Select TWO.)
+
+A. EC2 Management Console
+B. AWS Command Line Tools
+C. Amazon Workspaces
+D. AWS Management Console
+E. Amazon CloudWatch API
+
+
+Question 15
+A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas.Which of the following meets these requirements?
+
+A. Edge locations
+B. Availability Zones
+C. AWS Regions
+D. AWS Accounts
+
+
+Question 16
+Which of the below is an example of optimizing for cost?
+
+A. Provision extra capacity to allow for growth
+B. Replace an EC2 compute instance with AWS Lambda
+C. Deploy resources with AWS CloudFormation
+D. Choosing the fastest EC2 instance to ensure performance
+
+
+Question 17
+Which DynamoDB feature provides in-memory acceleration to tables that result in significant performance improvements?
+
+A. Amazon DynamoDB Accelerator (DAX)
+B. Amazon ElastiCache
+C. Amazon EFS
+D. Amazon CloudFront
+
+
+Question 18
+A company has deployed several relational databases on Amazon RDS. Every month, the database software vendor releases new security patches that need to be applied to the database.What is the MOST efficient way to apply the security patches?
+
+A. Connect to each database instance on a monthly basis, and download and apply the necessary security patches from the vendor
+B. Use AWS Systems Manager to automate database patching according to a schedule
+C. Enable automatic patching for the instances using the Amazon RDS console
+D. In AWS Config, configure a rule for the instances and the required patch level
+
+
+Question 19
+With which service can a developer upload code using a ZIP or WAR file and have the service handle the end-to-end deployment of the resources?
+
+A. AWS CodeCommit
+B. AWS Elastic Beanstalk
+C. AWS CodeDeploy
+D. Amazon ECS
+
+
+Question 20
+Which AWS support plan provides email only support by Cloud Support Associates?
+
+A. Business
+B. Basic
+C. Enterprise
+D. Developer
+
+
+Question 21
+Which of the following Amazon EC2 pricing models allows customers to use existing server-bound software licenses?
+
+A. Reserved Instances
+B. Dedicated Hosts
+C. Spot Instances
+D. On-Demand Instances
+
+
+Question 22
+An Elastic IP Address can be remapped between EC2 instances across which boundaries?
+
+A. DB Subnets
+B. Edge Locations
+C. Availability Zones
+D. Regions
+
+
+Question 23
+Which AWS IAM best practice recommends applying the minimum permissions necessary to perform a task when creating IAM policies?
+
+A. Grant least privilege
+B. Create individual IAM users
+C. Enable MFA for privileged users
+D. Use roles to delegate permissions
+
+
+Question 24
+What are two correct statements about AWS Organizations with consolidated billing? (Select TWO.)
+
+A. CloudTrail can be configured per organization
+B. Linked accounts lose their management independence
+C. Volume pricing discounts applied across multiple accounts
+D. One bill provided for multiple accounts
+E. Multiple bills are provided per organization
+
+
+Question 25
+How can you configure Amazon Route 53 to monitor the health and performance of your application?
+
+A. Using CloudWatch
+B. Using Route 53 health checks
+C. Using DNS lookups
+D. Using the Route 53 API
+
+
+Question 26
+Which of the following constitute the six pillars for the AWS Well-Architected Framework? (Select TWO.)
+
+A. Operational excellence, security, and reliability
+B. Operational excellence, elasticity and scalability
+C. Cost prioritization, and cost optimization
+D. Performance efficiency, sustainability, and cost optimization
+E. Data consistency, and cost optimization
+
+
+Question 27
+Which AWS feature of Amazon EC2 allows an administrator to create a standardized image that can be used for launching new instances?
+
+A. Amazon Machine Image
+B. Amazon EBS Mount Point
+C. Amazon Block Template
+D. Amazon Golden Image
+
+
+Question 28
+Which of the following are advantages of using the AWS cloud computing over legacy IT? (Select TWO.)
+
+A. You don't need to patch your operating systems
+B. You don't need to worry about over provisioning as you can elastically scale
+C. You can bring services closer to your end users
+D. You can bring new applications to market faster
+E. You are able to pass responsibility for the availability of your application to AWS
+
+
+Question 29
+Which of the following descriptions is incorrect in relation to the design of Availability Zones?
+
+A. AZs are physically separated within a typical metropolitan region and are located in lower risk flood plains
+B. Each subnet in a VPC is mapped to all AZs in the region
+C. AZ’s have direct, low-latency, high throughput and redundant network connections between each other
+D. Each AZ is designed as an independent failure zone
+
+
+Question 30
+Which AWS security service provides a firewall at the subnet level within a VPC?
+
+A. Security Group
+B. IAM Policy
+C. Bucket Policy
+D. Network Access Control List
+
+
+Question 31
+What are two benefits of using AWS Lambda? (Select TWO.)
+
+A. Continuous scaling (scale out)
+B. No servers to manage
+C. Integrated snapshots
+D. Open source software
+E. Flexible operating system choices
+
+
+Question 32
+Which services allow you to store files on AWS? (Select TWO.)
+
+A. Amazon SQS
+B. AWS Lambda
+C. Amazon EFS
+D. Amazon EBS
+E. Amazon LightSail
+
+
+Question 33
+How can a company connect from their on-premises network to VPCs in multiple regions using private connections?
+
+A. AWS Direct Connect Gateway
+B. Inter-Region VPC Peering
+C. AWS Managed VPN
+D. Amazon CloudFront
+
+
+Question 34
+How can an online education company ensure their video courses play with minimal latency for their users around the world?
+
+A. Use Amazon EBS Cross Region Replication to get the content close to the users
+B. Use Amazon S3 Transfer Acceleration to speed up downloads
+C. Use Amazon CloudFront to get the content closer to users
+D. Use Amazon Aurora Global Database
+
+
+Question 35
+A company needs protection from distributed denial of service (DDoS) attacks on its website and assistance from AWS experts during such events.Which AWS managed service will meet these requirements?
+
+A. AWS Shield Advanced
+B. Amazon GuardDuty
+C. AWS Web Application Firewall
+D. AWS Firewall Manager
+
+
+Question 36
+What charges are applicable to Amazon S3 Standard storage class? (Select TWO.)
+
+A. Data egress
+B. Per GB/month storage fee
+C. Retrieval fee
+D. Data ingress
+E. Minimum capacity charge per object
+
+
+Question 37
+A developer needs a way to automatically provision a collection of AWS resources. Which AWS service is primarily used for deploying infrastructure as code?
+
+A. AWS Elastic Beanstalk
+B. AWS CloudFormation
+C. AWS CodeDeploy
+D. Jenkins
+
+
+Question 38
+Which of the following would be good reasons to move from on-premises to the AWS Cloud? (Select TWO.)
+
+A. Outsource all security responsibility
+B. Gain access to free technical support services
+C. Gain end-to-end operational management of the entire infrastructure stack
+D. Reduce costs through easier right-sizing of workloads
+E. Improve agility and elasticity
+
+
+Question 39
+Which service runs your application code only when needed without needing to run servers?
+
+A. Amazon ECS
+B. Amazon EC2
+C. AWS Lambda
+D. AWS LightSail
+
+
+Question 40
+What is the name of the online, self-service portal that AWS provides to enable customers to view reports and, such as PCI reports, and accept agreements?
+
+A. AWS Documentation Portal
+B. AWS Compliance Portal
+C. AWS Artifact
+D. AWS DocuFact
+
+
+Question 41
+A company wants to utilize a pay as you go cloud model for all of their applications without CAPEX costs and which is highly elastic. Which cloud delivery model will suit them best?
+
+A. Private
+B. Public
+C. On-premise
+D. Hybrid
+
+
+Question 42
+Which service is used introduce fault tolerance into an application architecture?
+
+A. Amazon Elastic Load Balancing
+B. Amazon DynamoDB
+C. Amazon CloudFront
+D. Amazon ElastiCache
+
+
+Question 43
+What is the relationship between subnets and availability zones?
+
+A. Subnets contain one or more availability zones
+B. You can create one or more subnets within each availability zone
+C. You can create one subnet per availability zone
+D. Subnets span across multiple availability zones
+
+
+Question 44
+Which of the following must be used together to gain programmatic access to an AWS account? (Select TWO.)
+
+A. A user ID
+B. A secondary key
+C. A secret access key
+D. A primary key
+E. An access key ID
+
+
+Question 45
+Which of the following statements is correct about Amazon S3 cross-region replication?
+
+A. S3 buckets configured for cross-region replication can be owned by a single AWS account or by different accounts
+B. The source S3 bucket owner must have the source and destination AWS Regions disabled for their account
+C. Both source and destination S3 buckets must have versioning disabled
+D. The source and destination S3 buckets cannot be in different AWS Regions
+
+
+Question 46
+What are the primary benefits of using AWS Elastic Load Balancing? (Select TWO.)
+
+A. Caching
+B. High availability
+C. Elasticity
+D. Automation
+E. Regional resilience
+
+
+Question 47
+What is the name of the AWS managed Docker registry service used by the Amazon Elastic Container Service (ECS)?
+
+A. Docker Image Repository
+B. ECS Container Registry
+C. Elastic Container Registry
+D. Docker Container Registry
+
+
+Question 48
+Which AWS services form the app-facing services of the AWS serverless infrastructure? (Select TWO.)
+
+A. Amazon API Gateway
+B. Amazon DynamoDB
+C. Amazon EFS
+D. AWS Lambda
+E. AWS Step Functions
+
+
+Question 49
+A user deploys an Amazon Aurora database instance in multiple Availability Zones.This strategy involves which pillar of the AWS Well-Architected Framework?
+
+A. Reliability
+B. Cost optimization
+C. Performance efficiency
+D. Security
+
+
+Question 50
+Which service can you use to monitor, store and access log files generated by EC2 instances and on-premises servers?
+
+A. AWS OpsWorks
+B. AWS CloudTrail
+C. Amazon CloudWatch Logs
+D. Amazon Kinesis
+
+
+Question 51
+Which service provides alerts and remediation guidance when AWS is experiencing events that may impact you?
+
+A. AWS Health Dashboard
+B. AWS Inspector
+C. AWS Trusted Advisor
+D. AWS Shield
+
+
+Question 52
+To reward customers for using their services, what are two ways AWS reduce prices? (Select TWO.)
+
+A. Reduced cost for reserved capacity
+B. Discounts for using a wider variety of services
+C. Removal of termination fees for customers who spend more
+D. Volume based discounts when you use more services
+E. Reduction in inbound data transfer charges
+
+
+Question 53
+A Cloud Practitioner needs to rapidly deploy a popular IT solution and start using it immediately.What should the Cloud Practitioner use?
+
+A. AWS Elastic Beanstalk
+B. Amazon CloudFront
+C. AWS Quick Start reference deployments
+D. AWS Well-Architected Framework documentation
+
+
+Question 54
+What is an Edge location?
+
+A. A public endpoint for Amazon S3
+B. A VPC peering connection endpoint
+C. A virtual private gateway for VPN
+D. A content delivery network (CDN) endpoint for CloudFront
+
+
+Question 55
+Which service allows an organization to bring their own licensing on host hardware that is physically isolated from other AWS accounts?
+
+A. EC2 Spot Instances
+B. EC2 Reserved Instances
+C. EC2 Dedicated Instances
+D. EC2 Dedicated Hosts
+
+
+Question 56
+What feature of Amazon S3 enables you to set rules to automatically transfer objects between different storage classes at defined time intervals?
+
+A. Object Lifecycle Management
+B. S3 Archiving
+C. Elastic Data Management
+D. Auto Lifecycle Scaling
+
+
+Question 57
+How can a company protect their Amazon S3 data from a regional disaster?
+
+A. Use lifecycle actions to move to another S3 storage class
+B. Archive to Amazon Glacier
+C. Enable Multi-Factor Authentication (MFA) delete
+D. Use Cross-Region Replication (CRR) to copy to another region
+
+
+Question 58
+Which type of EBS volumes can be encrypted?
+
+A. Both non-root and root volumes
+B. Only non-root volumes created from snapshots
+C. Only root volumes can have encryption applied at launch time
+D. Non-root volumes only
+
+
+Question 59
+Which AWS service lets connected devices easily and securely interact with cloud applications and other devices?
+
+A. AWS Server Migration Service (SMS)
+B. Amazon Workspaces
+C. AWS IoT Core
+D. AWS Directory Service
+
+
+Question 60
+A cloud practitioner needs to decrease application latency and increase performance for globally distributed users.Which services can assist? (Select TWO.)
+
+A. Amazon CloudFront
+B. Amazon S3
+C. Amazon ElastiCache
+D. Amazon ECS
+E. Amazon AppStream 2.0
+
+
+Question 61
+Which AWS service can be used to prepare and load data for analytics using an extract, transform and load (ETL) process?
+
+A. Amazon EMR
+B. AWS Glue
+C. Amazon Athena
+D. AWS Lambda
+
+
+Question 62
+Which AWS program can help an organization to design, build, and manage their workloads on AWS?
+
+A. APN Technology Consultants
+B. AWS Technical Account Manager
+C. AWS Business Development Manager
+D. APN Consulting Partners
+
+
+Question 63
+Which AWS service can be used to send automated notifications to HTTP endpoints?
+
+A. Amazon SWF
+B. Amazon SES
+C. Amazon SNS
+D. Amazon SQS
+
+
+Question 64
+Which type of Amazon RDS automated backup allows you to restore the database with a granularity of as little as 5 minutes?
+
+A. Incremental backup
+B. Full backup
+C. Point-in-time recovery
+D. Snapshot backup
+
+
+Question 65
+Assuming you have configured them correctly, which AWS services can scale automatically without intervention? (Select TWO.)
+
+A. Amazon EBS
+B. Amazon S3
+C. Amazon EC2
+D. Amazon DynamoDB
+E. Amazon RDS
+
+

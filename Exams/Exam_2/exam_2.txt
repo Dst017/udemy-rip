@@ -1,0 +1,602 @@
+Question 1
+Which technology can automatically adjust compute capacity as demand for an application increases or decreases?
+
+A. Fault tolerance
+B. Load balancing
+C. Auto Scaling
+D. High availability
+
+
+Question 2
+Which of the following is an advantage for a company running workloads in the AWS Cloud vs on-premises? (Select TWO.)
+
+A. Less staff time is required to launch new workloads.
+B. Increased productivity for application development teams.
+C. Increased time to market for new application features.
+D. Lower overall utilization of server and storage systems.
+E. Higher acquisition costs to support elastic workloads.
+
+
+Question 3
+According to the shared responsibility mode, which security and compliance task is AWS responsible for?
+
+A. Encrypting data at rest
+B. Updating Amazon EC2 host firmware
+C. Granting permissions to users and services
+D. Updating operating systems
+
+
+Question 4
+How can an organization take advantage of tiered pricing across multiple business units within an organization?
+
+A. All Upfront Reserved Instances.
+B. AWS Organizations service control policies (SCPs).
+C. AWS Organizations consolidated billing.
+D. Cost Explorer utilization reports.
+
+
+Question 5
+A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in an Amazon VPC.Which service should be used to deploy the application?
+
+A. AWS CloudFormation
+B. Amazon LightSail
+C. Amazon EC2
+D. AWS Elastic Beanstalk
+
+
+Question 6
+Which of the following tasks can a user perform to optimize Amazon EC2 costs? (Select TWO.)
+
+A. Purchase Amazon EC2 Reserved Instances.
+B. Create a policy to restrict IAM users from accessing the Amazon EC2 console.
+C. Set a budget to limit spending on Amazon EC2 instances using AWS Budgets.
+D. Implement Auto Scaling groups to add and remove instances based on demand.
+E. Create users in a single Region to reduce the spread of EC2 instances globally.
+
+
+Question 7
+Which combination of steps will enable multi-factor authentication (MFA) on an AWS account? (Select TWO.)
+
+A. Contact AWS Support to initiate MFA activation.
+B. Activate the MFA device in the IAM console or by using the AWS CLI.
+C. Activate the MFA device by using Amazon GuardDuty.
+D. Activate AWS Shield on an MFA-compatible device.
+E. Acquire an MFA-compatible device.
+
+
+Question 8
+A cloud practitioner needs to migrate a 70 TB of data from an on-premises data center into the AWS Cloud. The company has a slow and unreliable internet connection.Which AWS service can the cloud practitioner leverage to transfer the data?
+
+A. AWS Storage Gateway
+B. AWS Snowball
+C. Amazon S3 Glacier
+D. AWS DataSync
+
+
+Question 9
+Which AWS service is a fully-managed source control service that hosts secure Git-based repositories?
+
+A. AWS CodeBuild
+B. AWS CodeDeploy
+C. AWS CodeCommit
+D. AWS CodePipeline
+
+
+Question 10
+What can a Cloud Practitioner use the AWS Total Cost of Ownership (TCO) Calculator for?
+
+A. Estimate a monthly bill for the AWS Cloud resources that will be used
+B. Estimate savings when comparing the AWS Cloud to an on-premises environment
+C. Generate reports that break down AWS Cloud compute costs by duration, resource, or tags
+D. Enable billing alerts to monitor actual AWS costs compared to estimated costs
+
+
+Question 11
+Which AWS service can be used to perform data extract, transform, and load (ETL) operations so you can prepare data for analytics?
+
+A. AWS Glue
+B. Amazon S3 Select
+C. Amazon QuickSight
+D. Amazon Athena
+
+
+Question 12
+Amazon S3 is typically used for which of the following use cases? (Select TWO.)
+
+A. Install an operating system
+B. Message queue
+C. Media hosting
+D. Host a static website
+E. In-memory data cache
+
+
+Question 13
+Which AWS dashboard displays relevant and timely information to help users manage events in progress, and provides proactive notifications to help plan for scheduled activities?
+
+A. AWS Personal Health Dashboard
+B. AWS Trusted Advisor dashboard
+C. AWS Service Health Dashboard
+D. Amazon CloudWatch dashboard
+
+
+Question 14
+Which AWS service helps customers meet corporate, contractual, and regulatory compliance requirements for data security by using dedicated hardware appliances within the AWS Cloud?
+
+A. AWS CloudHSM
+B. AWS Key Management Service (AWS KMS)
+C. AWS Secrets Manager
+D. AWS Directory Service
+
+
+Question 15
+According to the AWS shared responsibility model, which task is the customer's responsibility?
+
+A. Updating the operating system of AWS Lambda instances.
+B. Maintaining the infrastructure needed to run Amazon DynamoDB.
+C. Maintaining Amazon API Gateway infrastructure.
+D. Updating the guest operating system on Amazon EC2 instances.
+
+
+Question 16
+What is the function of Amazon EC2 Auto Scaling?
+
+A. Scales the size of EC2 instances up or down automatically, based on demand.
+B. Automatically updates the EC2 pricing model, based on demand.
+C. Scales the number of EC2 instances in or out automatically, based on demand.
+D. Automatically modifies the network throughput of EC2 instances, based on demand.
+
+
+Question 17
+Which of the following should be used to improve the security of access to the AWS Management Console? (Select TWO.)
+
+A. AWS Multi-Factor Authentication (AWS MFA)
+B. AWS Certificate Manager
+C. AWS Secrets Manager
+D. Strong password policies
+E. Security group rules
+
+
+Question 18
+Which AWS service can be used to load data from Amazon S3, transform it, and move it to another destination?
+
+A. AWS Glue
+B. Amazon EMR
+C. Amazon Kinesis
+D. Amazon RedShift
+
+
+Question 19
+How should an organization deploy an application running on multiple EC2 instances to ensure that a power failure does not cause an application outage?
+
+A. Launch the EC2 instances into Edge Locations
+B. Launch the EC2 instances into different Availability Zones
+C. Launch the EC2 instances in separate regions
+D. Launch the EC2 instances into different VPCs
+
+
+Question 20
+Which AWS service can be used to run Docker containers?
+
+A. AWS Lambda
+B. Amazon ECR
+C. Amazon AMI
+D. Amazon ECS
+
+
+Question 21
+A Cloud practitioner wants to know if there are services which can protect from DDoS (Distributed Denial of Service) attacks directed at AWS services.Which AWS service or tool will provide this protection?
+
+A. Security group
+B. AWS Shield
+C. Network access control list (ACL)
+D. Amazon GuardDuty
+
+
+Question 22
+A Cloud Practitioner wants to configure the AWS CLI for programmatic access to AWS services. Which credential components are required? (Select TWO.)
+
+A. A public key
+B. A private key
+C. A secret access key
+D. An IAM Role
+E. An access key ID
+
+
+Question 23
+A company needs a consistent and dedicated connection between AWS resources and an on-premise system.Which AWS service can fulfil this requirement?
+
+A. AWS DataSync
+B. Amazon Connect
+C. AWS Direct Connect
+D. AWS Managed VPN
+
+
+Question 24
+A Cloud Practitioner is re-architecting a monolithic application. Which design principles for cloud architecture do AWS recommend? (Select TWO.)
+
+A. Implement loose coupling.
+B. Design for scalability.
+C. Use self-managed servers.
+D. Rely on individual components.
+E. Implement manual scalability.
+
+
+Question 25
+Which service can a Cloud Practitioner use to configure custom cost and usage limits and enable alerts for when defined thresholds are exceeded?
+
+A. AWS Trusted Advisor
+B. Consolidated billing
+C. AWS Budgets
+D. Cost Explorer
+
+
+Question 26
+AWS are able to continue to reduce their pricing due to:
+
+A. The AWS global infrastructure
+B. Pay-as-you go pricing
+C. Reserved instance pricing
+D. Economies of scale
+
+
+Question 27
+Which of the following are valid best practices for using the AWS Identity and Access Management (IAM) service? (Select TWO.)
+
+A. Grant maximum privileges to IAM users.
+B. Embed access keys in application code.
+C. Use inline policies instead of customer managed policies.
+D. Use groups to assign permissions to IAM users.
+E. Create individual IAM users.
+
+
+Question 28
+A company needs to use third-party software for its workload on AWS.Is there a feature or service of AWS that the company can use to purchase the software?
+
+A. AWS License Manager
+B. AWS Marketplace
+C. AWS Resource Access Manager
+D. AWS Managed Services
+
+
+Question 29
+Which AWS service is used to send both text and email messages from distributed applications?
+
+A. Amazon Simple Email Service (Amazon SES)
+B. Amazon Simple Workflow Service (Amazon SWF)
+C. Amazon Simple Queue Service (Amazon SQS)
+D. Amazon Simple Notification Service (Amazon SNS)
+
+
+Question 30
+Which AWS service can act as a hybrid storage solution to connect on-premises workloads with the AWS cloud?
+
+A. AWS Backup
+B. AWS Storage Gateway
+C. AWS Direct Connect
+D. Amazon Connect
+
+
+Question 31
+According to the shared responsibility model, which security-related task is the responsibility of the customer?
+
+A. Maintaining server-side encryption.
+B. Securing servers and racks at AWS data centers.
+C. Maintaining firewall configurations at a hardware level.
+D. Maintaining physical networking configuration.
+
+
+Question 32
+An application has highly dynamic usage patterns. Which characteristics of the AWS Cloud make it cost-effective for this type of workload? (Select TWO.)
+
+A. Elasticity
+B. Reliability
+C. Pay-as-you-go pricing
+D. Strict security
+E. High availability
+
+
+Question 33
+Which Amazon EC2 tool acts as a virtual firewall to control inbound and outbound traffic to an EC2 instance?
+
+A. AWS Shield
+B. Security group
+C. Network access control list (ACL)
+D. AWS WAF
+
+
+Question 34
+Which of the following best describes an Availability Zone in the AWS Cloud?
+
+A. A completely isolated geographic location
+B. One or more edge locations based around the world
+C. A subnet for deploying resources into
+D. One or more physical data centers
+
+
+Question 35
+Which AWS service or feature allows a company to receive a single monthly AWS bill when using multiple AWS accounts?
+
+A. Amazon Cloud Directory
+B. AWS Cost and Usage report
+C. Consolidated billing
+D. AWS Cost Explorer
+
+
+Question 36
+Which cloud architecture design principle is supported by deploying workloads across multiple Availability Zones?
+
+A. Design for agility.
+B. Design for failure.
+C. Automate infrastructure.
+D. Enable elasticity.
+
+
+Question 37
+Which benefits can a company immediately realize using the AWS Cloud? (Select TWO.)
+
+A. No responsibility for security
+B. Capital expenses are replaced with variable expenses
+C. User control of physical infrastructure
+D. Increased agility
+E. Variable expenses are replaced with capital expenses
+
+
+Question 38
+A company is interested in moving its on-premises NoSQL database into the AWS Cloud.Which AWS service should the company use to replace their existing database?
+
+A. Amazon Quantum Ledger Database (Amazon QLDB)
+B. Amazon DynamoDB
+C. Amazon RDS for MySQL
+D. Amazon Redshift
+
+
+Question 39
+An eCommerce company plans to use the AWS Cloud to quickly deliver new functionality in an iterative manner, minimizing the time to market.Which feature of the AWS Cloud provides this functionality?
+
+A. Agility
+B. Fault tolerance
+C. Cost effectiveness
+D. Elasticity
+
+
+Question 40
+Which AWS service should a Cloud Practitioner use to automate configuration management using Puppet?
+
+A. AWS CloudFormation
+B. AWS Config
+C. AWS Systems Manager
+D. AWS OpsWorks
+
+
+Question 41
+Which AWS hybrid storage service enables a user’s on-premises applications to seamlessly use AWS Cloud storage?
+
+A. AWS Direct Connect
+B. AWS Backup
+C. Amazon Connect
+D. AWS Storage Gateway
+
+
+Question 42
+A company has a global user base and needs to deploy AWS services that can decrease network latency for their users. Which services may assist? (Select TWO.)
+
+A. AWS Global Accelerator
+B. Amazon VPC
+C. Amazon CloudFront
+D. Application Auto Scaling
+E. AWS Direct Connect
+
+
+Question 43
+Which Amazon EC2 pricing model should be avoided if a workload cannot accept interruption if capacity becomes temporarily unavailable?
+
+A. On-Demand Instances
+B. Spot Instances
+C. Convertible Reserved Instances
+D. Standard Reserved Instances
+
+
+Question 44
+According to the AWS Shared responsibility model, which two tasks are the responsibility of AWS? (Select TWO.)
+
+A. Encrypt client-side data and authenticate data integrity.
+B. Patch the operating system of Amazon S3.
+C. Provide physical security for Availability Zones.
+D. Manage customer data.
+E. Perform identity and access management.
+
+
+Question 45
+Which benefit of AWS enables companies to replace upfront fixed expenses with variable expenses when using on-demand technology services?
+
+A. Economies of scale
+B. High availability
+C. Global reach
+D. Pay-as-you-go pricing
+
+
+Question 46
+Which of the following statements are security principles within the AWS Well-Architected Framework? (Select TWO.)
+
+A. Perform operations as code.
+B. Analyze and attribute expenditures.
+C. Protect data in transit and at rest.
+D. Deploy globally in minutes.
+E. Monitor, alert, and audit actions and changes to AWS resources.
+
+
+Question 47
+Which AWS service should a Cloud Practitioner use to establish a secure network connection between an on-premises network and AWS?
+
+A. AWS Web Application Firewall (WAF)
+B. AWS Mobile Hub
+C. Virtual Private Network
+D. Amazon Virtual Private Cloud (VPC)
+
+
+Question 48
+A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances.Which AWS service will provide this assessment report?
+
+A. Amazon Inspector
+B. Amazon Macie
+C. AWS Config
+D. EC2 security groups
+
+
+Question 49
+A Cloud Practitioner noticed that IP addresses that are owned by AWS are being used to attempt to flood ports on some of the company’s systems.To whom should the issue be reported?
+
+A. AWS Partner Network (APN)
+B. AWS Technical Account Manager (TAM)
+C. AWS Trust & Safety team
+D. AWS Professional Services
+
+
+Question 50
+A Cloud Practitioner requires a simple method to identify if unrestricted access to resources has been allowed by security groups. Which service can the Cloud Practitioner use?
+
+A. AWS CloudTrail
+B. VPC Flow Logs
+C. Amazon CloudWatch
+D. AWS Trusted Advisor
+
+
+Question 51
+Which of the statements below is correct in relation to Consolidated Billing? (Select TWO.)
+
+A. You are charged a fee per user
+B. You can combine usage and share volume pricing discounts
+C. You receive one bill per AWS account
+D. You pay a fee per linked account
+E. You receive a single bill for multiple accounts
+
+
+Question 52
+What AWS service, tool, or feature can help companies identify underutilized Amazon EC2 instances and reduce their costs?
+
+A. Cost Explorer
+B. Consolidated billing
+C. Amazon Inspector
+D. AWS Trusted Advisor
+
+
+Question 53
+A company plan to move the application development to AWS. Which benefits can they achieve when developing and running applications in the AWS Cloud compared to on-premises? (Select TWO.)
+
+A. AWS can accommodate large changes in application demand.
+B. AWS automatically replicates all data globally.
+C. AWS makes it easy to implement high availability.
+D. AWS will fully manage the entire application.
+E. AWS takes care of application security patching.
+
+
+Question 54
+Which AWS service does AWS Snowball Edge natively support?
+
+A. AWS Trusted Advisor
+B. AWS Database Migration Service (AWS DMS)
+C. Amazon EC2
+D. AWS Server Migration Service (AWS SMS)
+
+
+Question 55
+Which of the following can be used to identify a specific user who terminated an Amazon RDS DB instance?
+
+A. Amazon CloudWatch
+B. AWS CloudTrail
+C. AWS Trusted Advisor
+D. Amazon Inspector
+
+
+Question 56
+A company needs an AWS service that can continuously monitor the company's AWS account. If there are any changes to the architecture, members of the team must be contacted.Which service will meet these requirements?
+
+A. Amazon Macie
+B. Amazon GuardDuty
+C. AWS Trusted Advisor
+D. AWS Config
+
+
+Question 57
+A company is migrating virtual machines (VMs) from their data center to the AWS Cloud. The company plans to deploy these migrated machines on Amazon EC2.Which cloud computing model will the company use for this operation?
+
+A. Platform as a Service (PaaS)
+B. Function as a Service (FaaS)
+C. Infrastructure as a Service (IaaS)
+D. Software as a Service (SaaS)
+
+
+Question 58
+Which on-premises costs must be included in a Total Cost of Ownership (TCO) calculation when comparing against the AWS Cloud? (Select TWO.)
+
+A. Project management services
+B. Network infrastructure in the data center
+C. Physical compute hardware
+D. Operating system administration
+E. Database schema development
+
+
+Question 59
+A Service Control Policy (SCP) is used to manage the maximum available permissions and is associated with which of the following?Service control policies (SCPs) manage permissions for which of the following?
+
+A. AWS Global Infrastructure
+B. Availability Zones
+C. AWS Organizations
+D. AWS Regions
+
+
+Question 60
+What can be used to allow an application running on an Amazon EC2 instance to securely store data in an Amazon S3 bucket without using long-term credentials?
+
+A. AWS IAM access key
+B. AWS IAM role
+C. AWS Systems Manager
+D. Amazon Connect
+
+
+Question 61
+Which AWS services offer compute capabilities? (Select TWO.)
+
+A. Amazon CloudHSM
+B. Amazon DynamoDB
+C. Amazon EFS
+D. AWS Lambda
+E. Amazon ECS
+
+
+Question 62
+A company requires a dashboard for reporting when using a business intelligence solution. Which AWS service can a Cloud Practitioner use?Which AWS service can be used?
+
+A. Amazon Redshift
+B. Amazon QuickSight
+C. Amazon Kinesis
+D. Amazon Athena
+
+
+Question 63
+What should a Cloud Practitioner ensure when designing a highly available architecture on AWS?
+
+A. The failure of a single component should not affect the application.
+B. Servers have low-latency and high throughput network connectivity.
+C. A single monolithic application component handles all operations.
+D. There are enough servers to run at peak load available at all times.
+
+
+Question 64
+How can an organization gain access to compliance reports natively through the AWS console?
+
+A. AWS Artifact
+B. AWS Identity and Access Management (IAM)
+C. AWS Certificate Manager (ACM)
+D. AWS Security Hub
+
+
+Question 65
+Which AWS-managed service can be used to process vast amounts of data using a hosted Hadoop framework?
+
+A. Amazon DynamoDB
+B. Amazon Redshift
+C. Amazon EMR
+D. Amazon Athena
+
+
