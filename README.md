@@ -1,4 +1,6 @@
 # udemy-rip
+Scraped contents of 6 practice exams from paid [Udemy course](https://www.udemy.com/course/aws-certified-cloud-practitioner-practice-exams-c/). Each exam folder contains 3 files: readable txt file of questions, json file of questions (should you want to access the questions in a common data structure), html answer key. The answer keys have lost their formatting, so it takes a little extra effort to read them.
+
 
 ## Methodology
 1. Manually log in to Udemy and get to first page (question) of practice exam
