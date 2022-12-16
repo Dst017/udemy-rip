@@ -103,12 +103,10 @@ def exam_to_txt(exam_dct, txt_name):
 
 if __name__ == "__main__":
     num_questions = 65
-    # download_exam(1154, 728, 65)
+    download_exam(1154, 728, num_questions)
     
     # Change me as necessary
     nth_exam = 6
-    if nth_exam == 4:
-        num_questions = 64
     downloaded_path = f"/Users/dstan/Desktop/Udemy/Exam_{nth_exam}"
     
     # extracts questions and answer choices as dict
