@@ -13,7 +13,7 @@ Scraped contents of 6 practice exams from paid [Udemy course](https://www.udemy.
 ## Notes
 - Could not directly scrape off Udemy as requests were flagged as bot activity
 - Did not scrape off answer HTML files because did not see a way to distinguish breaks between sets of answer choices since not all questions have same number of choices
-  - After further thought, this can probably done by performing simple regex on question text (see if it contains "Select Two")
+  - After further thought, this can probably be done by performing simple regex on question text (see if it contains "Select Two")
     - this would eliminate need for mouse and keyboard automation to download questions one by one
 - Answer html files lost their formatting when downloaded
   - Further work could be done to scrape explanations and correct answers but did not seem worth the effort
